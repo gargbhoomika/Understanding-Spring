@@ -9,10 +9,10 @@
 	<!--  <bean id="vehicle" class="garg.bhoomika.TestProject.Bike"></bean>-->
 	
 	<context:component-scan base-package="garg.bhoomika.TestProject"></context:component-scan>
-	<bean id="type" class="garg.bhoomika.TestProject.Type">
+	<!-- <bean id="type" class="garg.bhoomika.TestProject.Type">
 	<property name="brand" value="Renault"></property>
 	
-	<!--  <constructor-arg value="Renault"></constructor-arg>-->
+	<constructor-arg value="Renault"></constructor-arg>
 	
-	</bean>
+	</bean>-->
 </beans>

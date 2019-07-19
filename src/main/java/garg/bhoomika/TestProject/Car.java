@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Car implements Vehicle{
+	
 	@Autowired
 	private Type type;
 	public Type getType() {
